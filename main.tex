@@ -1,0 +1,267 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} 
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Jaimin Bhut} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:917600726979}{+91 76007 26979}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:jaiminbhut35@gmail.com}{jaiminbhut35@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/jaimin-bhut}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/jaiminbhut}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Ahmedabad,+Gujarat/@23.0201581,72.414936,11z/data=!3m1!4b1!4m6!3m5!1s0x395e848aba5bd449:0x4fcedd11614f6516!8m2!3d23.022505!4d72.5713621!16zL20vMDFkODhj}{Gujarat, India}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Veer Narmad South Gujarat University
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Gujarat, India}
+      {B.Sc. Computer Science;   \textbf{CGPA: 7.09/9.00}}{Jun 2017 \textbf{--} Sep 2020}
+
+      
+  \resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Languages:}{ JavaScript, TypeScript, Dart, C/C++, C\#, Java} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ React Native, Flutter, Node.js, React.js, MySQL, MongoDB, Git, SVN} \\ \vspace{3pt}
+        
+        \textbf{Methodologies:}{ Agile, Scrum, OOP, Functional Programming, CI/CD} \\ \vspace{3pt}
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bacancy Software LLP}{Gujarat, India}
+      {Software Engineer}{Sept 2023 \textbf{--} Present, Full-time WFO}
+        \resumeItemListStart
+            \resumeItem{Contributed to knowledge sharing and community engagement by hosting sessions on React Native, fostering a collaborative environment and promoting continuous learning within the organization and broader developer community.}
+            \resumeItem{Elevated skill set by upskilling in Flutter, showcasing dedication to professional growth and adapting to emerging technologies to enhance project capabilities and deliver innovative solutions.}
+            \resumeItem{Demonstrated a commitment to team success by providing ongoing support and assistance to colleagues, leveraging expertise in software development to troubleshoot and resolve issues efficiently, fostering a culture of collaboration and mutual support.}
+            \resumeItem{Leveraged AI tools to streamline development processes and improve code quality, advocating for their adoption within the team to enhance productivity and efficiency, showcasing a forward-thinking approach to software development practices.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Koboldo Inc.{\emph{(Startup Company)}}}{California, USA}
+      {React Native Developer}{Apr 2023 \textbf{--} Aug 2023, Full-time Remote}
+        \resumeItemListStart
+            \resumeItem{Played a pivotal role in an e-commerce startup environment, contributing valuable insights and feedback to enhance client products' market competitiveness and user satisfaction, fostering a culture of continuous improvement and innovation.}
+            \resumeItem{Showcased adaptability and versatility by fulfilling roles in both frontend (React.js) and backend (Node.js) development alongside React Native responsibilities, effectively managing budget constraints and proactively addressing project needs.}
+            \resumeItem{Actively engaged in cross-functional collaboration with stakeholders, including product managers and designers, to translate client requirements into actionable development tasks, ensuring alignment with business objectives and user expectations.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Softices Consultancy PVT LTD}{Gujarat, India}
+      {Software Developer Engineer}{Jun 2020 \textbf{--} Mar 2023, Full-time WFO}
+        \resumeItemListStart
+            \resumeItem{Spearheaded entry into the development arena by specializing in React Native application development, contributing to the successful completion of over five projects, showcasing expertise in cross-platform mobile app development.}
+            \resumeItem{Diversified skill set by undertaking and delivering two projects in native Android development, demonstrating versatility and adaptability in technology platforms.}
+            \resumeItem{Collaborated effectively with cross-functional teams, including designers and backend developers, to deliver seamless user experiences and robust mobile applications.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{NFT Social} $|$ \emph{{React Native (iOS/Android)}}}{}
+          \resumeItemListStart
+            \resumeItem{NFT Social is a social media platform developed within the Web3 framework, dedicated to facilitating the trading of NFTs using cryptocurrencies. By seamlessly integrating the Deso Decentralized Social Blockchain, the project ensures decentralization and security, providing a transparent environment for users to interact, build communities, and curate their NFT collections.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{TRS} $|$ \emph{{React Native (iOS/Android)}}}{}
+          \resumeItemListStart
+            \resumeItem{TRS revolutionizes group stock trading by offering users a seamless and secure platform to buy and sell stocks. With a user-friendly interface, investors can make informed decisions and execute transactions efficiently. Administrators manage wallet balances, ensuring controlled and organized trading while providing users with a hassle-free experience in the world of stock trading.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{HHA} $|$ \emph{{React Native (\href{https://apps.apple.com/tj/app/id6443904394}{\color{blue}iOS}/\href{https://play.google.com/store/apps/details?id=com.hha.redak&hl=en&gl=US}{\color{blue}Android}})}}{}
+          \resumeItemListStart
+            \resumeItem{HHA is a one-stop online platform for car services, offering seamless booking and management. It bridges the gap between car enthusiasts and specialized services, enhancing the automotive experience with tailored solutions and exceptional customer service. Available in English and Arabic, it ensures accessibility across regions. Google Maps integration makes finding nearby service stations easy, enhancing convenience for users.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{RSocial} $|$ \emph{{Flutter (iOS/Android)}}}{}
+          \resumeItemListStart
+            \resumeItem{RSocial is an advanced social media platform fostering real-time communication and deeper connections among users. It offers innovative features for personalized interactions and quantifying social bonds, aiming to enrich the digital social experience.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Koboldo} $|$ \emph{{React Native (iOS/Android)}}}{}
+          \resumeItemListStart
+            \resumeItem{The project involved the development of a cutting-edge e-commerce platform featuring a unique bidding system. Users could submit their desired prices for products, and successful bids were confirmed after a designated cooldown period, streamlining the purchasing process. This innovative feature distinguished the platform from traditional e-commerce apps while retaining standard functionalities.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+        {\textbf{Plates} $|$ \emph{{React Native (\href{https://apps.apple.com/us/app/plates-social/id1240670722}{\color{blue}iOS}/\href{https://play.google.com/store/apps/details?id=com.platessocial.app}{\color{blue}Android}})}}{}
+          \resumeItemListStart
+            \resumeItem{Plates is a social media platform designed for food enthusiasts. Users, known as foodies, can share their food posts, creating a vibrant community of culinary experiences. Additionally, Plates offers features for restaurants and chefs, allowing them to create profiles and share updates. Chefs can post recipes, while restaurants can provide updates on their establishments and menus, creating a comprehensive platform for food lovers and culinary professionals alike.}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+        {\textbf{Truly} $|$ \emph{{Android}}}{}
+          \resumeItemListStart
+            \resumeItem{Truly is a one-to-one video calling application where users connect with hosts for conversation. To initiate a call, users purchase digital coins. Hosts earn these coins based on the duration of their conversations with users and are ranked accordingly.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Visual Registration System} $|$ \emph{\href{https://play.google.com/store/apps/details?id=com.visualregistration.v2}{\color{blue}Android}}}{}
+          \resumeItemListStart
+            \resumeItem{Visual Registration simplifies your workflow by combining time tracking, project management, resource management, and holiday overviews into one intuitive tool. With features like time registration, checklists, and flexible reports, it streamlines processes and boosts efficiency. Integrated with various ERP systems, it offers seamless compatibility and advanced automations for hassle-free management.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{JHD} $|$ \emph{{React Native (iOS/Android)}}}{}
+          \resumeItemListStart
+            \resumeItem{Jeddah Historic District (JHD) enhances Arabic tourists' experience with location-based info on historical sites and events. It offers personal tour guide bookings for deeper insights into Jeddah's cultural heritage, making exploration convenient and engaging.}
+          \resumeItemListEnd
+          
+      
+    \resumeSubHeadingListEnd
+
+\end{document}
